@@ -20,5 +20,9 @@
   "homepage": "https://github.com/wesolyigor/portfolio_web#readme",
   "devDependencies": {
     "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "normalize-scss": "^7.0.1",
+    "normalize.css": "^8.0.1"
   }
 }

@@ -1,3 +1,14 @@
-body {
-  background: rgb(0, 255, 170);
-}
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
+
+@import "partials/variables";
+
+@import "partials/globals";
+
+@import "partials/fonts";
+
+@import "partials/functions";
+
+@import "partials/layout";
+
+// components
+@import "components/nav";
