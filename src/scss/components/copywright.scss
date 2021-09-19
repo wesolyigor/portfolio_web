@@ -1,0 +1,4 @@
+.copywright {
+  text-align: center;
+  @include paragraph($size: 14px);
+}

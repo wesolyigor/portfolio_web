@@ -8,6 +8,8 @@
 
 @import "partials/functions";
 
+@import "partials/typography";
+
 @import "partials/layout";
 
 // components
@@ -17,3 +19,7 @@
 @import "components/intro";
 @import "components/btn";
 @import "components/cards";
+@import "components/list.scss";
+@import "components/case.scss";
+@import "components/social.scss";
+@import "components/copywright.scss";

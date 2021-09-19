@@ -9,18 +9,12 @@
   }
 
   #{&}__hdl {
-    font-size: rem(22px);
-    line-height: 1.2;
-    font-family: "Heebo Regular", sans-serif;
-    color: $dark;
+    @include hdl;
   }
 
   #{&}__link {
-    font-size: rem(16px);
-    line-height: 1.2;
-    font-family: "Heebo Regular", sans-serif;
-    color: $secondary;
     text-decoration: none;
+    @include paragraph($line-height: 1.2, $color: $secondary);
   }
 
   #{&}__content {
